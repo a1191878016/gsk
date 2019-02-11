@@ -1,14 +1,13 @@
 import request from '@/utils/request'
 
 export function login(user, pwd) {
-  console.log(user,pwd)
+  console.log(user, pwd)
   return request({
     url: '/private/users/login',
     method: 'post',
     params: {
-      //userName,password
-      userName:user,
-      password:pwd
+      userName: user,
+      password: pwd
     }
   })
 }

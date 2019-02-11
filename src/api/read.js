@@ -1,8 +1,8 @@
-import request from  '@/utils/request'
+import request from '@/utils/request'
 
-export  function  getRead() {
+export function getRead() {
   return request({
-    url:'chart/readchart',
-    method:'get'
+    url: 'chart/readchart',
+    method: 'get'
   })
 }

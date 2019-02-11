@@ -1,14 +1,14 @@
 import request from '@/utils/request'
 
-export function getList(keywords,typeField,currentPage) {
+export function getList(keywords, typeField, currentPage) {
   return request({
     url: '/private/search',
     method: 'get',
-    params:{
-      keywords:keywords,
-      typeField:typeField,
-      currentPage:currentPage,
-      pageSize:10
+    params: {
+      keywords: keywords,
+      typeField: typeField,
+      currentPage: currentPage,
+      pageSize: 10
     }
   })
 }

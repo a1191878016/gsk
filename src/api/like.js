@@ -1,8 +1,8 @@
-import request from  '@/utils/request'
+import request from '@/utils/request'
 
-export  function  getLike() {
+export function getLike() {
   return request({
-    url:'chart/likechart',
-    method:'get'
+    url: 'chart/likechart',
+    method: 'get'
   })
 }

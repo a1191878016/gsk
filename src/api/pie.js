@@ -1,8 +1,8 @@
-import  request from '@/utils/request'
+import request from '@/utils/request'
 
-export  function getPie() {
+export function getPie() {
   return request({
-    url:'/chart/piechart',
-    method:'get'
+    url: '/chart/piechart',
+    method: 'get'
   })
 }
