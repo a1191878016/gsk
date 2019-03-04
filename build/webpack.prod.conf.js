@@ -56,7 +56,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       template: 'index.html',
       inject: true,
       favicon: resolve('favicon.ico'),
-      title: '药鹰爬虫项目',
+      title: '爬虫信息管理',
       minify: {
         removeComments: true,
         collapseWhitespace: true,
